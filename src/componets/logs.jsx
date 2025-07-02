@@ -1,4 +1,5 @@
 import "./logs.css";
+
 export default function Logs({ playersClicks, playersName }) {
   if (playersClicks.length > 0) {
     return (

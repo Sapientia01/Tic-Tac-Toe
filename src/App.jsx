@@ -74,7 +74,7 @@ function App() {
   return (
     <>
       <header>
-        <img src="../public/game-logo.png" alt="tic-tac-toe" />
+        <img src="./assets/game-logo.png" alt="tic-tac-toe" />
         <h1>Tic-Tac-Toe</h1>
       </header>
 

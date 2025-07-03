@@ -4,7 +4,7 @@ import GameBoard from "./componets/gameboard.jsx";
 import GameOver from "./componets/gameOver.jsx";
 import Logs from "./componets/logs.jsx";
 import { WINNING_COMBINATIONS } from "./winning-combination.js";
-
+import gameLogo from "./assets/game-logo.png";
 const initialgamestatus = [
   [null, null, null],
   [null, null, null],
@@ -74,7 +74,7 @@ function App() {
   return (
     <>
       <header>
-        <img src="./assets/game-logo.png" alt="tic-tac-toe" />
+        <img src={gameLogo} alt="tic-tac-toe" />
         <h1>Tic-Tac-Toe</h1>
       </header>
 

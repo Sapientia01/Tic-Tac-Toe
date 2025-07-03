@@ -128,7 +128,8 @@ ol {
 }
 @media (max-width: 500px ) {
 #game-container *{
-  transform: scale(0.7);
+  transform: scale(0.6);
+  border: 1px solid blue;
 } 
 }
 

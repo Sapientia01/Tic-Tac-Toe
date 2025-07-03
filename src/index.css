@@ -35,8 +35,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem; /* spacing between header and container */
-  transform: scale(1); /* default */
+  gap: 2rem; 
+  transform: scale(1); 
   transform-origin: top center;
   transition: transform 0.3s ease;
 }

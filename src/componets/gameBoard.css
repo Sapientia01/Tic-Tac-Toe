@@ -1,17 +1,15 @@
-
 #game-board {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  margin: 3rem 0;
-  padding: 0;
   flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem;
+  padding: 0;
+  height: 30rem;
 }
 
 #game-board ol {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
   margin: 0;
@@ -21,11 +19,10 @@
 #game-board button {
   width: 8rem;
   height: 8rem;
-  border: none;
   background: #aca788;
-  color: #3f3b00;
+  color: hsl(56, 100%, 12%);
   font-size: 5rem;
   cursor: pointer;
-  font-family: 'Caprasimo', cursive;
+  font-family: "Caprasimo", cursive;
   padding: 1rem;
 }
